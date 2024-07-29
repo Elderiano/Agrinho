@@ -8,11 +8,13 @@
 body{
     background-color: gray;
     width: 100%;
+    background-image: url(../imagens/A_small_cup_of_coffee.JPG);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .coluna1{
-background-color: green;
-width: 30%;
+width: 50%;
 height: 100vh;
 text-align: center;
 display: flex;
@@ -21,14 +23,15 @@ flex-direction: column;
 
 .coluna2{
     background-color: greenyellow;
-    width: 30%;
-    height: 100vh;
+    width: 50%;
+    height: 70vh;
     text-align: center;
     display: flex;
     flex-direction: column;
+
     }
 
 .org{
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
 }
